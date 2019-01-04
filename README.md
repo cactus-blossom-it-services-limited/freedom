@@ -5,11 +5,12 @@
 
 ## Instructions
 1. Navigate inside the web directory (docroot) of a drupalvm drupal 8 site
-2. Remove the sites directory ``rm -fr sites``
-3. Clone this repo to the docroot, or download it as a .zip file
-4. Unzip.
-5. Delete the .zip file.
-6. Rename the 'freedom' directory to 'sites' ``mv freedom sites``
+2. Backup the sites directory ``mv sites sites-old``
+3. Remove the sites directory ``rm -fr sites``
+4. Clone this repo to the docroot, or download it as a .zip file
+5. Unzip.
+6. Delete the .zip file.
+7. Rename the 'freedom' directory to 'sites' ``mv freedom sites``
 
 ## Notes
 This will create a base for developing the Saint theme
